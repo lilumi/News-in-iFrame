@@ -1,0 +1,96 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+font: 11px/16px Verdana, sans-serif;
+color: #333;
+}
+
+h1 {
+font-size: 24px;
+line-height: 16px;
+font-weight: normal;
+color: #000;
+text-transform: uppercase;
+	margin: 5px 0;
+}
+
+h4 {
+font-size: 16px;
+line-height: 20px;
+font-weight: normal;
+color: #000;
+margin: 3px 0 0px 0;
+}
+
+a:hover, a:active {
+color: #F05346;
+}
+
+a {
+color: #333;
+}
+
+a.html, a.pdf {
+display: block;
+float: left;
+font-style: normal;
+height: 12px;
+line-height: 11px;
+margin-top: 5px;
+padding: 0 1px;
+text-decoration: none;
+}
+
+.section {
+border: 1px solid #ccc;
+border-left: none;
+border-bottom: none;
+overflow: hidden;
+width: 729px;
+padding-bottom: 20px;
+}
+
+.primary {
+	margin: 0 10px 0 0;
+}
+
+.years {
+	overflow: hidden;
+	margin: 6px 0 0;
+}
+
+.years a {
+text-decoration: none;
+font-size: 16px;
+line-height: 16px;
+display: block;
+float: left;
+color: #000;
+margin-right: 13px;
+}
+
+.years a.active {
+	color: #00b3ef;
+}
+
+.years a:hover {
+	color: #F05346;	
+}
+
+.news-release {
+margin-bottom: 11px;
+overflow: hidden;
+padding-bottom: 5px;
+}
+
+.sep {
+display: block;
+float: left;
+height: 12px;
+margin: 5px 7px 0;
+width: 1px;
+border-right: 1px #33CCFF solid;
+}
